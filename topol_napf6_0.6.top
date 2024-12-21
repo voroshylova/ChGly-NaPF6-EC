@@ -1,0 +1,20 @@
+; Include forcefield parameters
+#include "top-escalonado/forcefield.itp"
+#include "top-escalonado/colina.itp"
+#include "top-escalonado/glicina.itp"
+#include "top-escalonado/na.itp"
+#include "top-escalonado/pf6.itp"
+#include "top-escalonado/ec.itp"
+
+[ system ]
+; Name
+Electrolyte bulk
+
+[ molecules ]
+; Compound               #mols
+ COL 450
+ GLI 450
+ NA 3
+ PF6 3
+ ECA 50
+
